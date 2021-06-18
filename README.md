@@ -11,7 +11,7 @@ We expect to see source code as a git repository with instructions on how to use
 
 *Please let us know if you have any questions.*
 
-####Task: Fetch ‘n’ Cache application
+#### Task: Fetch ‘n’ Cache application
 
 * The user should be able to fetch Rick and Morty characters. 
 * If the character was fetched before, it should be loaded instantly. 
@@ -20,7 +20,7 @@ We expect to see source code as a git repository with instructions on how to use
 * For each data on the cache, display buttons that users can click to load that data on the screen 
 * Allow the user to clear the cache entirely 
 
-####BONUS tasks: 
+#### BONUS tasks: 
 * Allow the user to remove each data from the cache 
 * While the user types in the input field, the app should be getting data from the cache on each change
 * When the input field contains an id that is on the cache, instantaneously display the cached data on the screen

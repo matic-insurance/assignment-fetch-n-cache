@@ -28,4 +28,4 @@ We expect to see source code as a git repository with instructions on how to use
 
 [Figma Mockups](https://www.figma.com/file/UeAY9vlFmBAqUoMb6H3n77/Matic-Test-Assignment%3A-Fetch-and-Cache?node-id=0%3A1)
 
-<code>GET [https://rickandmortyapi.com/api/character](https://rickandmortyapi.com/api/character)
+<code>GET [https://rickandmortyapi.com/api/character](https://rickandmortyapi.com/api/character)<code>

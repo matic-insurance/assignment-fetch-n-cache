@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+* {
+  --accent-color-blue: #0005FF;
+  --accent-color-black: #000000;
+  --accent-color-grey: #B1B1B1;
+  --accent-color-red: #FF0000;
+  --accent-color-green: #a2ce2e;
+  --transition: .2s ease-in-out;
+}
+

@@ -1,0 +1,68 @@
+.inputContainer {
+  position: relative;
+  height: calc(3rem - 1px);
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5px
+}
+
+.inputContainer input {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem 0 0;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+}
+
+.inputContainer label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid var(--accent-color-grey);
+}
+
+.inputContainer label:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 1px solid var(--accent-color-black);
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+
+.placeholder {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: var(--transition);
+  font-weight: 400;
+  color: var(--accent-color-grey);
+}
+
+.inputContainer input:focus + .descriptionContainer .placeholder,
+.inputContainer input:not(:placeholder-shown) + .descriptionContainer .placeholder {
+  transform: translateY(-400%);
+  color: var(--accent-color-black);
+  font-size: 0.875rem;
+}
+
+.inputContainer input:focus + .descriptionContainer:after,
+.inputContainer input:not(:placeholder-shown) + .descriptionContainer:after {
+  transform: translateX(0);
+}
+
+.error label:after, .error label {
+  border-color: var(--accent-color-red) !important;
+}
+
+.error .placeholder {
+  color: var(--accent-color-red) !important;
+}

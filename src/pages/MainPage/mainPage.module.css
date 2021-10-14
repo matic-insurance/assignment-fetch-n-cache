@@ -1,0 +1,33 @@
+.mainPageWrapper {
+  width: 100vw;
+  max-width: 60rem;
+  margin: 4rem auto 0;
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 15rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightSidebar {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  height: 20rem;
+  flex-shrink: 0;
+}
+
+.rightSidebar button {
+  padding-top: calc(2rem - 5px);
+}
+
+.mainPart {
+  width: 100%;
+}

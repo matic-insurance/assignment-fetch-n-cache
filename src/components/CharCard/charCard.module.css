@@ -1,0 +1,64 @@
+.charContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.charContainer h2,
+.charInfoContainer {
+  margin-left: 1.5rem;
+
+}
+
+.charPhoto {
+  width: 15rem;
+  height: fit-content;
+  min-height: 15rem;
+  border-radius: 5px;
+  box-shadow: 0 0 34px rgba(0, 0, 0, 0.0914656);
+  background-size: cover;
+  position: relative;
+}
+
+.loaderWrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charPhoto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.charInfoContainer h1 {
+  margin-top: 0;
+}
+
+.charInfoRow {
+  margin: .5rem 0;
+}
+
+.charInfoRow > span:first-child {
+  color: var(--accent-color-grey);
+  float: left;
+  width: 5rem;
+}
+
+.charInfoRow > span:last-child {
+  font-weight: 700;
+}
+
+.red {
+  color: var(--accent-color-red);
+}
+
+.grey {
+  color: var(--accent-color-grey);
+}
+
+.green {
+  color: var(--accent-color-green);
+}

@@ -1,0 +1,80 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: .5rem;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.cardWrapper::-webkit-scrollbar {
+  width: 2px;
+}
+
+.cardWrapper::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: #eee;
+}
+
+.cardWrapper::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 2px;
+  background-color: #ccc;
+}
+
+.imageContainer {
+  border-radius: 5px;
+  margin: .5rem 0;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.imageContainer:before {
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  inset: 0;
+  background-color: #FFFFFF;
+  opacity: .6;
+  transition: var(--transition);
+}
+
+.imageContainer:hover:before {
+  opacity: 0;
+}
+
+.imageContainer.active:before {
+  content: none;
+}
+
+.deleteButton {
+  position: absolute;
+  z-index: 2;
+  right: -.25rem;
+  top: -.25rem;
+  color: var(--accent-color-grey);
+  fill: #F1F1F1;
+  transition: var(--transition);
+  opacity: .8;
+}
+
+.deleteButton:hover,
+.active .deleteButton {
+  opacity: 1;
+}
+
+.active .deleteButton:hover {
+  opacity: .8;
+}
+
+.deleteButton svg {
+  width: 1rem;
+  height: 1rem;
+}

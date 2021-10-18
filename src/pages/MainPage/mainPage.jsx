@@ -3,9 +3,8 @@ import classes from "./mainPage.module.css";
 import useGetApiDataHook from "../../hooks/useGetApiData.hook";
 import characterServices from "../../services/character.service";
 import {SearchInput} from "../../components/FormComponents";
-import {CharCard} from "../../components";
+import {CachedSidebar, CharCard} from "../../components";
 import localStorageHelpers from "../../helpers/localStorage.helpers";
-import CachedSidebar from "../../components/CachedSidebar/cachedSidebar";
 
 export default function MainPage() {
 	const [cachedData, setCachedData] = useState([])

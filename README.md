@@ -1,10 +1,13 @@
 # Matic Test assignment
 ​
 Our intent is to get a feel for your thought process as well as your source code organization and testability.
+
 ​
 It's not required that you solve all of the problems / tasks in this document. We value your time and efforts. Feel free to skip any part of this assignment while still giving us a chance to enjoy the results of your work that best demonstrate your skills and code style.
+
 ​
 We would like to know the approximate time you spent on the solution. We do not take time of submission into account in our overall evaluation.
+
 ​
 We expect to see source code as a git repository with instructions on how to use it.
 

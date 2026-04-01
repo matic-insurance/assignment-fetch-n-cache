@@ -9,7 +9,7 @@ It's not required that you solve all of the problems / tasks in this document. W
 We would like to know the approximate time you spent on the solution. We do not take time of submission into account in our overall evaluation.
 
 ​
-We expect to see source code as a git repository with instructions on how to use it.
+We expect to see source code as a git repository with instructions on how to use it. The test task has to be public for easy access.
 
 _Please let us know if you have any questions._
 ​
